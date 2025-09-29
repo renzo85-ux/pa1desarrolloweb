@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color1: #F25F29;
+    --color2: #0477BF;
+    --color3: #6BA614;
+    --color4: #05AFF2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contenedor{
+    width: 90%;
+    margin: 25px auto;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    object-fit: cover;
+}
+#curso{
+    color: #05AFF2;
+    font-size: 28px;
+    background-color: white;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+#cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+#nombre{
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: auto;
+}
+#descripcion{
+    padding: 30px 0;
+}
+h2{
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 20px 0;
+}
+#definicion{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 5px;
+    border: 1px solid ;
+}
+.lenguaje{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.lenguaje h3{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+.lenguaje p{
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+.lenguaje img{
+    padding-top: 100px;
+    width: 90%;
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+#analogia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 5px;
+    border: 1px solid;
+}
+.hogar{
+    flex: 1;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+.hogar h3{
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+.hogar p{
+    padding: 35px;
+}
+#casa{
+    width: 60%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 15px 10px 15px;
+}
+#pie{
+    margin-top: 30px;
+}
+#pie p{
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 15px;
+    padding: 20px;
+    font-style: italic;
+}
+
